@@ -36,13 +36,17 @@ Server is run on the Raspberry Pi using Django framework. Following are the step
 
 Here, Android App acts the client which communicates with the server wirelessly over WiFi. Steps to develop Android code:
 
-1) Add control buttons to xml file.
+1) Create a new Android Studio Project with Empty Activity.
 
-2) Assign OnClick listener to each button and run AsyncTask for each button press.
+2) Add control buttons to xml file.
 
-3) For every button press, new AsyncTask needs to be created and executed. Pass extened path string to the AsyncTask.
+3) Assign OnClick listener to each button and run AsyncTask for each button press.
 
-4) In the AsyncTask class, open http connection with the respective link and request GET method to request from Server.
+4) For every button press, new AsyncTask needs to be created and executed. Pass extened path string to the AsyncTask.
+
+5) In the AsyncTask class, open http connection with the respective link and request GET method to request from Server.
+
+
 
 
 
