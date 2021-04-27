@@ -48,6 +48,11 @@ Here, Android App acts the client which communicates with the server wirelessly 
 
 ## References:
 
+https://medium.com/ristek-fasilkom/controlling-raspberry-pi-with-django-a91940fc3f4d
+
+https://github.com/sunfounder/SunFounder_PiCar-V#license
+
+https://www.youtube.com/watch?v=0wedH1sODNk&ab_channel=LinuxwayKungFu
 
 ## Demo:
 
@@ -55,7 +60,7 @@ Here, Android App acts the client which communicates with the server wirelessly 
 
 2) Open Android App and press buttons to control speed and direction of the car built using Pi.
 
-Link: 
+Demo Video: 
 
 
 
