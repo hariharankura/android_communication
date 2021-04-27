@@ -60,7 +60,7 @@ https://www.youtube.com/watch?v=0wedH1sODNk&ab_channel=LinuxwayKungFu
 
 2) Open Android App and press buttons to control speed and direction of the car built using Pi.
 
-Demo Video: 
+Demo Video: https://youtu.be/kXvySCgxceg
 
 
 
