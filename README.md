@@ -46,6 +46,18 @@ Here, Android App acts the client which communicates with the server wirelessly 
 
 5) In the AsyncTask class, open http connection with the respective link and request GET method to request from Server.
 
+## References:
+
+
+## Demo:
+
+1) Run Server on Pi: python manage.py runserver 0.0.0.0:8000
+
+2) Open Android App and press buttons to control speed and direction of the car built using Pi.
+
+Link: 
+
+
 
 
 
