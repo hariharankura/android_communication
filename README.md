@@ -27,14 +27,25 @@ Server is run on the Raspberry Pi using Django framework. Following are the step
 
 7) Update urls.py file to import views.py and add 'run' method from views.py
 
-8) views.py has all the actual code to run functions on Pi.
+8) views.py has the actual code to run functions on Pi.
 
 9) Add serializers.py if the server wants to send data to client. The python data from the Server is converted to JSON format by serializers.py file and sent to the Android App.
 
 
 ## Client:
 
-Here, Android App acts the client
+Here, Android App acts the client which communicates with the server wirelessly over WiFi. Steps to develop Android code:
+
+1) Add control buttons to xml file.
+
+2) Assign OnClick listener to each button and run AsyncTask for each button press.
+
+3) For every button press, new AsyncTask needs to be created and executed. Pass extened path string to the AsyncTask.
+
+4) In the AsyncTask class, open http connection with the respective link and request GET method to request from Server.
+
+
+
 
 
    
