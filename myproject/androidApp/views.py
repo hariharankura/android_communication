@@ -10,32 +10,19 @@ from rest_framework import status
 #from . models import employees
 #from . serializers import employeesSerializer
 
-""" class employeeList(APIView):
-    def get(self, request):
-        employee1 = employees.objects.all()
-        serializer = employeesSerializer(employee1, many=True)
-        print ("Perform operation")
-        return Response(serializer.data)
-
-    def post(self):
-        pass """
 
 def run(request):
-    if 'action' in request.GET:
-        action = request.GET['action']
-        # ============== Back wheels =============
-        if action == 'forward':
-            print("Go Forward")
-            #Implement Forward function
-        elif action == 'stop':
-            #Implement Stop function
-            print("Stop")
+    if 'values' in request.GET:
+        string = request.GET['values']
+        values = string.split(":")
+        angle = values[0]
+        strength = values[1]
+        print ("angle = "+angle+" strength = "+strength)
+    return HttpResponse('')
 
-        # ============== Front wheels =============
-        elif action == 'left':
-            #Implement Left function
-            print("Move Left")
-        elif action == 'right':
-            #Implement Right function
-            print("Move Right")
+def camera(request):
+    if 'angle' in request.GET:
+        cam_angle = request.GET['angle']
+        print ("camera angle = "+cam_angle)
+    
     return HttpResponse('')
